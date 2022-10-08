@@ -3,8 +3,7 @@ import pandas as pd
 import csv
 import re
 from validate_docbr import CPF, CNPJ
-from thefuzz import fuzz
-import pdfkit as pdf
+from thefuzz import fuzzgit
 
 cpfValid = CPF()
 cnpjValid = CNPJ()
